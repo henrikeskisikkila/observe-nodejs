@@ -1,0 +1,18 @@
+{
+  "name": "metric",
+  "version": "1.0.0",
+  "description": "A metric is numeric data associated with time. This can be e.g. request rates, the number of 2XX versus 5XX HTTP responses, latency between the application and a backing service, memory and disk use, and even business stats like dollar revenue or cancelled payments.",
+  "main": "consumer-http.metrics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.2.0",
+    "middie": "5.1",
+    "node-fetch": "^2.6.0",
+    "statsd-client": "^0.4.4"
+  }
+}
